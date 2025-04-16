@@ -16,7 +16,7 @@ export const goods = [
   'Garlic',
 ];
 
-export const App = () => {
+export const GoodsSelector = () => {
   const [selectedGood, setSelectedGood] = useState('Jam');
 
   return (
